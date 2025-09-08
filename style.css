@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    
+    
+}
+
+main {
+    background-color: white;
+    align-items: center;
+    background-size: cover;
+    height: 88vh;
+    padding-top: 30px;
+}
+
+.teste {
+    text-align: center;
+}
+
+.logo {
+    padding: 23px 0;
+    position: relative;
+    right: 20px;
+    top: 18px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.cabecalho li {
+    letter-spacing: 2px;
+    margin-left: 10pxpx;
+}
+
+.center {
+    text-align: center;
+    padding: 10px 0;
+}
