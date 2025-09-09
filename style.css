@@ -4,17 +4,32 @@
     box-sizing: border-box;
 }
 
-body {
+main {
+    background-color: white;
+    background-size: cover;
+    height: 88vh;
+    
+}
+
+.texto {
+    
+   display: flex;
+   justify-content: center;
+   
     
     
 }
 
-main {
-    background-color: white;
-    align-items: center;
-    background-size: cover;
-    height: 88vh;
-    padding-top: 30px;
+.dentro {
+    
+    width: 900px;
+}
+
+
+hr {
+    height: 6px;
+    background-color: #6D78A8;
+    color: #6D78A8;
 }
 
 .teste {
@@ -25,7 +40,8 @@ main {
     padding: 23px 0;
     position: relative;
     right: 20px;
-    top: 18px;
+    right: 50px;
+    
 }
 
 nav {
@@ -38,15 +54,38 @@ nav {
     list-style: none;
     display: flex;
     align-items: center;
-    padding-top: 30px;
+    
 }
 
 .cabecalho li {
-    letter-spacing: 2px;
-    margin-left: 10pxpx;
+    
+    margin-left: 5px;
 }
 
 .center {
     text-align: center;
     padding: 10px 0;
+}
+
+.teste {
+    background-color: #EFEFEF;
+    height: 415px;
+}
+
+
+
+.cor1{
+    height: 200px;
+    width: 200px;
+    background-color: beige;
+    
+}
+
+.cor2 {
+    height: 400px;
+    width: px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    
 }
