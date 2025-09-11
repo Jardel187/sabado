@@ -16,6 +16,22 @@ nav {
     align-items: center;
 }
 
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 100px;
+    background-color: #6D78A8;
+    border-radius: 45px;
+    border: 1px solid none;
+    transition: 0.3s;
+
+}
+
 .cabecalho {
     list-style: none;
     display: flex;
